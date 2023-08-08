@@ -11,8 +11,8 @@
   "author": "WalletConnect <walletconnect.org>",
   "license": "LGPL-3.0",
   "scripts": {
-    "start": "react-scripts-ts start",
-    "build": "react-scripts-ts build",
+    "start": "react-scripts-ts --openssl-legacy-provider start",
+    "build": "react-scripts-ts --openssl-legacy-provider build",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject",
     "lint": "eslint -c './.eslintrc' --fix './src/**/*{.ts,.tsx}'"
@@ -42,8 +42,8 @@
     "@types/node": "^13.1.6",
     "@types/prop-types": "^15.7.3",
     "@types/qr-image": "^3.2.3",
-    "@types/react": "^16.9.51",
-    "@types/react-dom": "^16.9.8",
+    "@types/react": "^16.14.40",
+    "@types/react-dom": "^16.9.18",
     "@types/styled-components": "^5.1.3",
     "@typescript-eslint/eslint-plugin": "^2.20.0",
     "@typescript-eslint/parser": "^2.20.0",
